@@ -62,16 +62,6 @@ The diagram below shows how each service is used in relation to other services i
 </div>
 
 
-## Cleaning Up
-
-When you've finished with this solution, make sure that you delete all unwanted AWS resources. 
-
-**Caution**: You need to manually delete any extra resources that you may have created in this notebook. Some examples include, extra Amazon S3 buckets (to the solution's default bucket) and extra Amazon SageMaker endpoints (using a custom name).
+## Result
 
 
----
-## Useful Resources
-
-* Churn prediction demo video: https://youtu.be/jSrH_37jmvQ
-* [Amazon SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
-* [Amazon SageMaker Python SDK Documentation](https://sagemaker.readthedocs.io/en/stable/)
