@@ -7,8 +7,7 @@
 1. [Data](#data)
 1. [Requirements](#requirements)
 1. [Architecture](#architecture)
-1. [Cleaning Up](#cleaning-up)
-1. [Useful Resources](#useful-resources)
+1. [Result](#Result)
 
 ---
 
@@ -39,15 +38,15 @@ For each user, we will determine if and when they cancel their subscription and 
 We use simulated music streaming event-level usage data. This dataset contains 1100 users and their user behavior for one year. Each row in the data contains one event and has information about the timestamp of the event, user, page name, some demographic information, song attributes, and session information. 
 
 
-
+ 
 ## Requirements
-
+<!--
 You will need an AWS account to use this solution. Sign up for an [account](https://aws.amazon.com/) before you proceed. 
 
 You will also need to have permission to use [Amazon SageMaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio.html) and to create all the resources detailed in the [architecture section](#architecture). All AWS permissions can be managed through [AWS IAM](https://aws.amazon.com/iam/). Admin users will have the required permissions, but please contact your account's AWS administrator if your user account doesn't have the required permissions.
 
 To run this notebook under your own AWS account, you'll need to first create an S3 bucket and change the Amazon S3 locations within the code. For data, you have the option to use the same pregenerated data set used in this notebook found in the data folder, recreate the data using the initial generation code and specified changes or replace the data with your own data instead.
-
+-->
 ## Architecture
 As part of the solution, the following services are used:
 
